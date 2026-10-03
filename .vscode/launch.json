@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: проектная .venv (Macro Recorder)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\Macro_recorder.pyw",
+      "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

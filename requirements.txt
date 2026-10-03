@@ -1,0 +1,6 @@
+# Зависимости Macro Recorder (Python 3.12, Windows).
+# Установка: .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+PySide6==6.11.2
+pynput==1.8.2
+pywin32==312
+pyinstaller==6.22.3

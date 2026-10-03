@@ -1,0 +1,28 @@
+# Universal Kit Exclusions:
+# Локальное Python-окружение (создаётся через py -3.12 -m venv .venv):
+.venv/
+00_*
+*_template.pyw
+*_GUIDE.md
+Build_Tools/*.template
+Build_Tools/*_template.py
+Build_Tools/build/
+Build_Tools/dist/
+Build_Tools/*.spec
+!Build_Tools/MacroRecorder.spec
+__pycache__/
+*.pyc
+*.log
+MacroRecorder/
+macro_player_debug.log
+/settings.json
+logo.png
+Sessions/
+*.lnk
+*.bat
+
+.venv/
+
+release/
+.pytest_cache/
+.ruff_cache/
